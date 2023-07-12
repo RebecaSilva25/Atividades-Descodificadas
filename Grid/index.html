@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+
+      body {
+        background-color: rgb(220, 203, 158);
+        
+      }
+      .container-grid {   
+        margin: 50px;     
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 25px;
+        grid-auto-flow: row column;    
+        justify-items: center; 
+           
+      }
+      
+    </style>
+
+</head>
+<body>
+  <div class="container-grid">
+    <div class="foto1"><img src="./fotos/warner-bros-friends-1.webp" width="292px" height="392px" alt="Foto 1"></div>
+    <div class="foto2"><img src="./fotos/J3JXBW3TH5ODXMWJZVJW4GOGU4.avif" width="292px" height="371px" alt="Foto 2"></div>
+    <div class="foto3"><img src="./fotos/friends-especial-confirmado.webp" width="440px" height="227px" alt="Foto 3"></div>
+    <div class="foto4"><img src="./fotos/friends_cast.jpg" width="300px" height="300px" alt="Foto 4"></div>
+    <div class="foto5"><img src="./fotos/30820-friends-2-facebook-friends-tv-show.webp" width="340px" height="513px" alt="Foto 5"></div>
+    <div class="foto6"><img src="./fotos/Serie-Friends-1160x653.jpg" width="250px" height="220px" alt="Foto 6"></div>
+  </div>  
+</body>
+</html>
