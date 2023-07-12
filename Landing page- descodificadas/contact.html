@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link css -->
+    <link rel="stylesheet" href="./index.css" />
+   
+    <title>Contato</title>
+  </head>
+  <body>
+   
+    <header>
+      <div class="logo-container">
+        <img src="./img/Logotipo do site.png" alt="Logo do MyCard" />
+        <span class="logo-name">MyCard</span>
+      </div>
+      <nav>
+        <ul class="main-menu">
+          <li><a href="index.html">Pagina Inicial</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="contact.html">Contatos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="banner-contact">
+        <h1 class="title">Contate-nos</h1>
+      </section>
+
+    
+      <section>
+        <h2>Entre em Contato:</h2>
+        <p>✉️rebecareis.18@hotmail.com</p>
+        <p>📞(99) 99999-9999</p>
+        <br />
+      </section>
+     
+
+      <section class="form-section">
+        <h2>Para mais informações, preencha o formulário abaixo:</h2>
+        <form
+          action="mailto:rebecareis.18@hotmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="name">Nome:</label>
+          <input
+            id="name"
+            type="text"
+            name="name"
+            placeholder="Insira seu nome"
+            required
+          />
+
+          <label for="email">Email:</label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            size="30"
+            placeholder="nome@email.com"
+            required
+          />
+
+          <label for="phone">Telefone:</label>
+          <input
+            id="phone"
+            type="tel"
+            name="phone"
+            placeholder="(00) 00000-0000"
+            required
+          />
+
+          <label for="mensage">Mensagem:</label>
+          <textarea
+            id="mensage"
+            name="mensage"
+            cols="30"
+            rows="5"
+            placeholder="Insira sua mensagem ou dúvida"
+            required
+          ></textarea>
+
+          <div class="input-enviar">
+            <input type="submit" value="Enviar" class="enviar"/>
+          </div>
+          
+        </form>
+      </section>
+    </main>
+
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
